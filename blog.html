@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Forfume</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+<!-- Navbar Baru -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow-sm fixed-top" id="navbar-custom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Forfume</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="tentangkami.html">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="index_product.html">Produk</a></li>
+          <li class="nav-item"><a class="nav-link active" href="keranjang.html">Keranjang</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Blog Content -->
+<section class="container text-center my-5 pt-5">
+  <div class="input-group mb-5 w-50 mx-auto">
+    <input type="text" id="searchInput" class="form-control" placeholder="Search blog...">
+    <button class="btn btn-outline-dark" type="button" onclick="searchBlog()">Cari</button>
+  </div>
+
+  <div class="row" id="blogContainer">
+    <div class="col-md-4 mb-4 blog-item">
+      <a href="artikel1.html">
+        <img src="Assetblog/pexels-didsss-1190829.jpg" class="img-fluid blog-image" alt="Parfum 1">
+      </a>
+      <h5 class="mt-3">Cara Memilih dan Merawat Parfum agar Wanginya Tahan Lama</h5>
+      <a href="artikel1.html" class="btn btn-dark mt-2">Lihat Selengkapnya</a>
+    </div>
+    <div class="col-md-4 mb-4 blog-item">
+      <a href="artikel2.html">
+        <img src="Assetblog/pexels-didsss-1653085.jpg" class="img-fluid blog-image" alt="Parfum 2">
+      </a>
+      <h5 class="mt-3">Tips Menyimpan Parfum agar Tidak Mudah Rusak dan Tetap Wangi</h5>
+      <a href="artikel2.html" class="btn btn-dark mt-2">Lihat Selengkapnya</a>
+    </div>
+    <div class="col-md-4 mb-4 blog-item">
+      <a href="artikel3.html">
+        <img src="Assetblog/pexels-valeriya-1961792.jpg" class="img-fluid blog-image" alt="Parfum 3">
+      </a>
+      <h5 class="mt-3">Rahasia Layering Parfum agar Wangi Tahan Lebih Lama & Unik</h5>
+      <a href="artikel3.html" class="btn btn-dark mt-2">Lihat Selengkapnya</a>
+    </div>
+  </div>
+</section>
+<footer class="bg-dark text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Enjoy Forfume exclusive offers</h5>
+          <p class="text-secondary">Stay up-to-date with our latest news, updates and promotions</p>
+          <div class="logo mt-4 fs-3 text-white">F O R F U M E</div>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h6 class="fw-bold">Explore</h6>
+          <ul class="list-unstyled text-secondary">
+            <li><a href="index_product.html" class="text-secondary">Forfume</a></li>
+            <li><a href="index.html" class="text-secondary">Home</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h6 class="fw-bold">Marketplace</h6>
+          <ul class="list-unstyled text-secondary">
+            <li><a href="#" class="text-secondary">Shopee</a></li>
+            <li><a href="#" class="text-secondary">Tokopedia</a></li>
+            <li><a href="#" class="text-secondary">Lazada</a></li>
+            <li><a href="#" class="text-secondary">TikTok Shop</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h6 class="fw-bold">Company</h6>
+          <ul class="list-unstyled text-secondary">
+            <li><a href="tentangkami.html" class="text-secondary">About Us</a></li>
+            <li><a href="https://maps.app.goo.gl/Ek5q5WhKQwN1mYT78?g_st=aw" class="text-secondary">Offline Store</a></li>
+            <li><a href="blog.html" class="text-secondary">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-3">
+          <h6 class="fw-bold">Connect with us</h6>
+          <ul class="list-unstyled text-secondary">
+            <li><a href="https://www.instagram.com/arifmutaqin_?igsh=dXFlZTB4OXRlYXo2" class="text-secondary">Instagram</a></li>
+            <li><a href="https://vt.tiktok.com/ZSBPAYUmk/" class="text-secondary">Tiktok</a></li>
+            <li><a href="https://youtube.com/@ahmadmuzzaky9087?si=rkvDAc8UNk9SCWOB" class="text-secondary">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mt-4 pt-3 border-top border-secondary">
+        <small class="text-secondary">&copy; 2025, Forfume All Rights Reserved</small>
+        <div>
+          <a href="#" class="text-secondary me-3">Privacy Policy</a>
+          <a href="#" class="text-secondary">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script>
+  function searchBlog() {
+    const input = document.getElementById("searchInput").value.toLowerCase();
+    const blogItems = document.querySelectorAll(".blog-item");
+
+    blogItems.forEach(item => {
+      const title = item.querySelector("h5").textContent.toLowerCase();
+      item.style.display = title.includes(input) ? "block" : "none";
+    });
+  }
+</script>
+
+</body>
+</html>

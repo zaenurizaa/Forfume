@@ -1,0 +1,173 @@
+/* === Global === */
+body {
+  background-color: #000;
+  color: #ffd700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  padding-top: 80px;
+}
+
+/* Link style */
+a {
+  text-decoration: none;
+  color: #ffd700;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* === Navbar === */
+#navbar-custom {
+  background-color: #57370b !important;
+}
+
+
+#navbar-custom .navbar-brand,
+#navbar-custom .nav-link {
+  color: #fff !important;
+}
+
+#navbar-custom .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+
+/* === Search Input === */
+.input-group .form-control {
+  background-color: #111;
+  color: #ffd700;
+  border: 1px solid #ffd700;
+}
+
+.input-group .form-control::placeholder {
+  color: #d4af37;
+  opacity: 0.8;
+}
+
+.input-group .form-control:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+}
+
+.input-group .btn-outline-dark {
+  background-color: transparent;
+  color: #ffd700;
+  border-color: #ffd700;
+}
+
+.input-group .btn-outline-dark:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+/* === Blog Item === */
+.blog-item {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 15px;
+  color: #d4af37;
+  transition: 0.3s;
+}
+
+.blog-item:hover {
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.blog-image {
+  border-radius: 8px;
+  border: 2px solid #ffd700;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Tombol lihat selengkapnya */
+.blog-item .btn-dark {
+  background-color: transparent;
+  border: 1px solid #ffd700;
+  color: #ffd700;
+}
+
+.blog-item .btn-dark:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+/* === Footer === */
+footer.bg-dark {
+  background-color: #57370b !important;
+  color: #ffffff;
+}
+
+footer.bg-dark h5,
+footer.bg-dark h6 {
+  color: #ffffff;
+}
+
+footer.bg-dark .text-secondary,
+footer.bg-dark a.text-secondary {
+  color: #ffffff !important;
+}
+
+footer.bg-dark a.text-secondary:hover {
+  color: #ffd700 !important;
+  transition: 0.3s;
+}
+
+footer.bg-dark input.form-control {
+  background-color: #111 !important;
+  color: #ffd700;
+  border-color: #ffd700;
+}
+
+footer.bg-dark input.form-control::placeholder {
+  color: #d4af37;
+  opacity: 0.8;
+}
+
+footer.bg-dark input.form-control:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+}
+
+footer.bg-dark .btn.btn-light {
+  background-color: transparent;
+  color: #ffd700;
+  border: 1px solid #ffd700;
+}
+
+footer.bg-dark .btn.btn-light:hover {
+  background-color: #ffd700;
+  color: #000;
+  transition: 0.3s;
+}
+
+footer.bg-dark .logo {
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 1.75rem;
+  letter-spacing: 0.3rem;
+}
+
+footer.bg-dark .logo-bar {
+  display: inline-block;
+  font-size: 1.25rem;
+  transform: translateY(-0.4rem);
+  color: #ffd700;
+}
+
+
+/* === Responsive Adjustment === */
+@media (max-width: 991.98px) {
+  .navbar-brand.center-mobile {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,156 @@
+/* Carousel */
+#myCarousel {
+  max-width: 900px; 
+  margin: 0 auto;   
+  border-radius: 15px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner img {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px; 
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body {
+  background-color: #000;
+  color: #ffd700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  padding-top: 80px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+h5 {
+  color: #000;
+}
+
+.teks {
+  max-width: 600px; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-brand.center-mobile {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Navbar */
+#navbar-custom {
+  background-color: #57370b !important;
+}
+
+#navbar-custom .navbar-brand,
+#navbar-custom .nav-link {
+  color: #fff !important;
+}
+
+#navbar-custom .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+/* ANIMASI HOVER untuk 3 kotak "Mengapa Memilih Kami" */
+.values-section .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Saat kursor diarahkan ke kartu */
+.values-section .card:hover {
+  transform: translateY(-5px) scale(1.02);
+  /*Angkatkeatasdansedikitmembesar*/background-color: #000000;
+  box-shadow: 0 8px 16px rgba(255, 215, 0, 0.25);
+  
+  -webkit-transform: translateY(-5px) scale(1.02);
+  -moz-transform: translateY(-5px) scale(1.02);
+  -ms-transform: translateY(-5px) scale(1.02);
+  -o-transform: translateY(-5px) scale(1.02);
+}
+
+/* Perubahan warna teks saat hover */
+.values-section .card:hover h5 {
+  color: #ffffff;
+}
+
+.values-section .card:hover p {
+  color: #ffffff;
+}
+
+
+/* Footer */
+footer.bg-dark {
+  background-color: #57370b !important;
+  color: #ffffff;
+}
+
+footer.bg-dark h5,
+footer.bg-dark h6 {
+  color: #ffffff;
+}
+
+footer.bg-dark .text-secondary,
+footer.bg-dark a.text-secondary {
+  color: #ffffff !important;
+}
+
+footer.bg-dark a.text-secondary:hover {
+  color: #ffd700 !important;
+  transition: 0.3s;
+}
+
+footer.bg-dark input.form-control {
+  background-color: #111 !important;
+  color: #ffd700;
+  border-color: #ffd700;
+}
+
+footer.bg-dark input.form-control::placeholder {
+  color: #d4af37;
+  opacity: 0.8;
+}
+
+footer.bg-dark input.form-control:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+}
+
+footer.bg-dark .btn.btn-light {
+  background-color: transparent;
+  color: #ffd700;
+  border: 1px solid #ffd700;
+}
+
+footer.bg-dark .btn.btn-light:hover {
+  background-color: #ffd700;
+  color: #000;
+  transition: 0.3s;
+}
+
+footer.bg-dark .logo {
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 1.75rem;
+  letter-spacing: 0.3rem;
+}
